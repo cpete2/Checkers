@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+<style>
+.class1 {
+border-style:solid;
+	border-color:black;
+	color:black;
+	text-align:center;
+	padding:.5em;
+	background-color:white;
+}
+.class2 {
+border-style:solid;
+	border-color:black;
+	color:purple;
+	text-align:center;
+	padding:.5em;
+	background-color:purple;
+}
+#player2p {position: absolute; top: 0; left: 0;}
+</style>
+
+	<title>Checkers</title>
+	<link rel="stylesheet" type="text/css" href="practice2.css" />
+	<script src="gridjava.js"></script>
+</head>
+
+<body onload="runTable()">
+<h1 id="img">CHECKERS</h1>
+
+
+<div id="buttonDiv"	style="position:relative; top:40px; left:30px; font-size:120%">
+Player 1 choose your color:
+</br><select id="playerColor1">
+  <option value="Green">Green</option>
+  <option value="Black">Black</option>
+</select>
+</br>Player 2 choose the other color:
+</br><select id="playerColor2">
+  <option value="Green">Green</option>
+  <option value="Black">Black</option>
+</select>
+</br><button onclick="boardSetUp ()" >START</button><button onclick="clearTable ()" >RESET</button>
+
+
+<div id="location">
+</div>
+</br>
+</br>
+<div id="inputValues">
+</div>	
+
+<p>The Score: Remaing Pieces
+</br>Green: <span id="1score"></span>
+</br>Black: <span id="2score"></span>
+</body>
+</div>
+
+<div style="position: absolute; right:462px; top:130px;">
+<script>
+document.write("User Login Info: "+localStorage.t2550timestamp)
+</script>
+<table id="tableId">
+</table>
+</div>
+
+</html>

@@ -1,0 +1,55 @@
+	
+body {
+	color: black;
+	background-color: grey;
+	font-family: "tekton pro ext";
+}
+h1{
+	line-height:1.0;
+	font-family: "tekton pro ext";
+	text-align:center;
+	color:Navy;
+	background-color:grey;
+	font-size:300%;
+	border-style:double;
+	border-width:3px;
+	border-color:white;
+	border-top-width:3px;
+	border-bottom-width:3px;
+	
+}
+a{
+	color:#155;
+}
+p{
+	font-size:20em.
+	
+}
+
+table{
+
+}
+
+h2{
+	margin-left:2.5em;
+	font-size:2em;
+	text-decoration:underline;
+	color:Navy;
+	display: visible;
+}
+
+img{
+
+}
+
+td{
+	border-style:solid;
+	border-color:black;
+	color:green;
+	text-align:center;
+	height:2.0em;
+	width:2.0em;
+}
+
+
+

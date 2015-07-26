@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+	<title>Checkers</title>
+	<link rel="stylesheet" type="text/css" href="practice2.css" />
+	<script src="gridjava.js"></script>
+<style>
+.login{
+position:relative;
+text-align:right;
+}
+
+</style>
+</head>
+
+
+
+<body>
+	
+	<img src="checkers.jpg" alt="Checkers Piece" width="500"height="200" style="position:relative; left:375px;/>
+	
+	
+	<div style=" position: absolute; top: 300px;">
+	<p><h2>How to play</h2>
+	<ul>
+		<li>Login in with user name and password if you have one. If not click start right below the login corner.
+		<li>Eash player will then select their color.
+		<li>Player 1 goes first followed by player two.
+		<li>The player to knock off all of their openents plieces first wins.
+		<li>Have fun!
+	</Ul>
+<p>If you need more help on how to play the game of chess <a href="http://www.playjava.com/checkers_game_basics.html" target="_blank">click here</a></p>
+</br>The documentation file is linked <a href="documentation.html" target="_blank">here</a>
+	
+	<h1>Preliminary Software Design</h1>
+	</br>Click <a href="checkpoint.html" target="_blank">here</a>to view the checkpoint.html page.
+	<h2>The Model</h2>
+	 This Program will use many arrays and objects to keep track of game date. This game will need to have an object that tells where and keeps track of 
+	</br> the checkers on the board.  This object will also keep track of when a checker peice has been jumped by an opponent and remove it from the bored 
+	</br> using funtions that do that with in it.  
+	
+	<h2>The Fuctions</h2>
+	</br> There will be serveral funtions for this game:
+	<ul>
+		<li>RemoveCheck Funtction:  takes an interger of a paramater and returns the number of check objects for a certain color after check has been removed.
+		<li>KingChecker Function: This funtion will allow the check to move backwards on the board once the player reaches their oponents side.
+		<li>ColorCheck Function:  This fustion set the players choice of color checker.
+	</br>
+	</br>
+	</br>Game Music
+	</br><audio controls autoplay>
+	<source src="State Radio_01_Calling All Crows (Album).mp3" type="audio/mpeg">
+	Your browser does not support this music.
+	</audio>
+	
+	
+<div style="position:absolute; right: 30px; top:50px;">
+	<div class="login">
+	<i>LOG IN</i>
+	</br>User Name:<input id="playerName" type="text"></input>
+	</br>User Password:<input id="playerPassword" type="password" size="21"></input>
+	</br><button onclick="logIn ()">Login</button>
+	</div>
+	<div class="login" id="validate">
+	</div>
+	<div class="login">
+	<button onclick="clearF ()">CLEAR</button>
+	</br>If you don't have a 
+	</br>login click <a href="gridpage.html" target="_blank">START</a> 
+	</br>to play anyways!
+	</div>
+	</div>	
+	
+</div>	
+</body>
+
+
+
+
+
+</html>
